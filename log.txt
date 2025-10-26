@@ -1,0 +1,123 @@
+TIME     EVENT COMM             PID     PPID    FILENAME/EXIT CODE
+23:06:33 EXIT  docker           33682   580     [0]
+23:06:33 EXEC  iptables         33694   1120    /usr/sbin/iptables
+23:06:33 EXEC  sh               33695   1823    /bin/sh
+23:06:33 EXEC  which            33696   33695   /usr/bin/which
+23:06:33 EXIT  iptables         33694   1120    [0] (22ms)
+23:06:33 EXIT  which            33696   33695   [0] (5ms)
+23:06:33 EXIT  sh               33695   1823    [0] (14ms)
+23:06:33 EXEC  sh               33697   1823    /bin/sh
+23:06:33 EXEC  ps               33698   33697   /usr/bin/ps
+23:06:33 EXIT  ps               33698   33697   [0] (69ms)
+23:06:33 EXIT  sh               33697   1823    [0] (76ms)
+23:06:33 EXEC  sh               33699   1823    /bin/sh
+23:06:33 EXEC  cpuUsage.sh      33700   33699   /home/ryuu.linux/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/out/vs/base/node/cpuUsage.s
+23:06:33 EXEC  sed              33701   33700   /usr/bin/sed
+23:06:33 EXIT  sed              33701   33700   [0] (8ms)
+23:06:33 EXEC  cat              33702   33700   /usr/bin/cat
+23:06:33 EXIT  cat              33702   33700   [0] (4ms)
+23:06:33 EXEC  cat              33703   33700   /usr/bin/cat
+23:06:33 EXIT  cat              33703   33700   [0] (5ms)
+23:06:33 EXEC  cat              33704   33700   /usr/bin/cat
+23:06:33 EXIT  cat              33704   33700   [0] (5ms)
+23:06:33 EXEC  cat              33705   33700   /usr/bin/cat
+23:06:33 EXIT  cat              33705   33700   [0] (5ms)
+23:06:33 EXEC  sleep            33706   33700   /usr/bin/sleep
+23:06:34 EXIT  sleep            33706   33700   [0] (1007ms)
+23:06:34 EXEC  sed              33707   33700   /usr/bin/sed
+23:06:34 EXIT  sed              33707   33700   [0] (15ms)
+23:06:34 EXEC  cat              33708   33700   /usr/bin/cat
+23:06:34 EXIT  cat              33708   33700   [0] (6ms)
+23:06:34 EXIT  cpuUsage.sh      33709   33700   [0]
+23:06:34 EXEC  cat              33710   33700   /usr/bin/cat
+23:06:34 EXIT  cat              33710   33700   [0] (5ms)
+23:06:34 EXIT  cpuUsage.sh      33711   33700   [0]
+23:06:34 EXEC  cat              33712   33700   /usr/bin/cat
+23:06:34 EXIT  cat              33712   33700   [0] (5ms)
+23:06:34 EXIT  cpuUsage.sh      33713   33700   [0]
+23:06:34 EXEC  cat              33714   33700   /usr/bin/cat
+23:06:34 EXIT  cat              33714   33700   [0] (5ms)
+23:06:34 EXIT  cpuUsage.sh      33715   33700   [0]
+23:06:34 EXIT  cpuUsage.sh      33700   33699   [0] (1185ms)
+23:06:34 EXIT  sh               33699   1823    [0] (1192ms)
+23:06:35 EXEC  which            33716   7297    /usr/bin/which
+23:06:35 EXIT  which            33716   7297    [1] (13ms)
+23:06:36 EXEC  iptables         33717   1120    /usr/sbin/iptables
+23:06:36 EXIT  iptables         33717   1120    [0] (19ms)
+23:06:37 EXEC  sh               33718   1823    /bin/sh
+23:06:37 EXEC  which            33719   33718   /usr/bin/which
+23:06:37 EXIT  which            33719   33718   [0] (10ms)
+23:06:37 EXIT  sh               33718   1823    [0] (25ms)
+23:06:37 EXEC  sh               33720   1823    /bin/sh
+23:06:37 EXEC  ps               33721   33720   /usr/bin/ps
+23:06:37 EXIT  ps               33721   33720   [0] (69ms)
+23:06:37 EXIT  sh               33720   1823    [0] (75ms)
+23:06:37 EXEC  sh               33722   1823    /bin/sh
+23:06:37 EXEC  cpuUsage.sh      33723   33722   /home/ryuu.linux/.vscode-server/cli/servers/Stable-7d842fb85a0275a4a8e4d7e040d2625abbf7f084/server/out/vs/base/node/cpuUsage.s
+23:06:37 EXEC  sed              33724   33723   /usr/bin/sed
+23:06:37 EXIT  sed              33724   33723   [0] (8ms)
+23:06:37 EXEC  cat              33725   33723   /usr/bin/cat
+23:06:37 EXIT  cat              33725   33723   [0] (4ms)
+23:06:37 EXEC  cat              33726   33723   /usr/bin/cat
+23:06:37 EXIT  cat              33726   33723   [0] (4ms)
+23:06:37 EXEC  cat              33727   33723   /usr/bin/cat
+23:06:37 EXIT  cat              33727   33723   [0] (4ms)
+23:06:37 EXEC  cat              33728   33723   /usr/bin/cat
+23:06:37 EXIT  cat              33728   33723   [0] (4ms)
+23:06:37 EXEC  sleep            33729   33723   /usr/bin/sleep
+23:06:38 EXEC  which            33730   7297    /usr/bin/which
+23:06:38 EXIT  which            33730   7297    [1] (6ms)
+23:06:38 EXEC  bash             33731   580     /bin/bash
+23:06:38 EXEC  bash             33731   580     /bin/bash
+23:06:38 EXEC  locale-check     33732   33731   /usr/bin/locale-check
+23:06:38 EXIT  locale-check     33732   33731   [0] (4ms)
+23:06:38 EXEC  locale           33733   33731   /usr/bin/locale
+23:06:38 EXIT  locale           33733   33731   [0] (4ms)
+23:06:38 EXIT  bash             33734   33731   [0]
+23:06:38 EXEC  docker           33731   580     /usr/bin/docker
+23:06:38 EXIT  docker           33731   580     [0] (340ms)
+23:06:38 EXIT  sleep            33729   33723   [0] (1008ms)
+23:06:38 EXEC  sed              33743   33723   /usr/bin/sed
+23:06:38 EXIT  sed              33743   33723   [0] (18ms)
+23:06:38 EXEC  cat              33744   33723   /usr/bin/cat
+23:06:38 EXIT  cat              33744   33723   [0] (6ms)
+23:06:38 EXIT  cpuUsage.sh      33745   33723   [0]
+23:06:38 EXEC  cat              33746   33723   /usr/bin/cat
+23:06:38 EXIT  cat              33746   33723   [0] (5ms)
+23:06:38 EXIT  cpuUsage.sh      33747   33723   [0]
+23:06:38 EXEC  cat              33748   33723   /usr/bin/cat
+23:06:38 EXIT  cat              33748   33723   [0] (5ms)
+23:06:38 EXIT  cpuUsage.sh      33749   33723   [0]
+23:06:38 EXEC  cat              33750   33723   /usr/bin/cat
+23:06:38 EXIT  cat              33750   33723   [0] (5ms)
+23:06:39 EXIT  cpuUsage.sh      33751   33723   [0]
+23:06:39 EXIT  cpuUsage.sh      33723   33722   [0] (1188ms)
+23:06:39 EXIT  sh               33722   1823    [0] (1194ms)
+23:06:39 EXEC  iptables         33752   1120    /usr/sbin/iptables
+23:06:39 EXIT  iptables         33752   1120    [0] (26ms)
+23:06:42 EXEC  iptables         33753   1120    /usr/sbin/iptables
+23:06:42 EXIT  iptables         33753   1120    [0] (25ms)
+23:06:43 EXEC  which            33754   7297    /usr/bin/which
+23:06:43 EXIT  which            33754   7297    [0] (15ms)
+23:06:43 EXEC  bash             33755   580     /bin/bash
+23:06:43 EXEC  bash             33755   580     /bin/bash
+23:06:43 EXEC  locale-check     33756   33755   /usr/bin/locale-check
+23:06:43 EXIT  locale-check     33756   33755   [0] (6ms)
+23:06:43 EXEC  locale           33757   33755   /usr/bin/locale
+23:06:43 EXIT  locale           33757   33755   [0] (5ms)
+23:06:43 EXIT  bash             33758   33755   [0]
+23:06:43 EXEC  docker           33755   580     /usr/bin/docker
+23:06:44 EXIT  docker           33755   580     [0] (308ms)
+23:06:45 EXEC  iptables         33768   1120    /usr/sbin/iptables
+23:06:45 EXIT  iptables         33768   1120    [0] (22ms)
+23:06:48 EXEC  iptables         33769   1120    /usr/sbin/iptables
+23:06:48 EXIT  iptables         33769   1120    [0] (26ms)
+23:06:49 EXEC  bash             33770   580     /bin/bash
+23:06:49 EXEC  bash             33770   580     /bin/bash
+23:06:49 EXEC  locale-check     33771   33770   /usr/bin/locale-check
+23:06:49 EXIT  locale-check     33771   33770   [0] (4ms)
+23:06:49 EXEC  locale           33772   33770   /usr/bin/locale
+23:06:49 EXIT  locale           33772   33770   [0] (4ms)
+23:06:49 EXIT  bash             33773   33770   [0]
+23:06:49 EXEC  docker           33770   580     /usr/bin/docker
+23:06:49 EXIT  docker           33770   580     [0] (126ms)
