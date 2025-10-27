@@ -12,7 +12,7 @@ import (
 	"github.com/cilium/ebpf/ringbuf"
 	"golang.org/x/sys/unix"
 
-	"ebpf-bootstrap/internal/event"
+	"ebpf-process-monitor/internal/event"
 )
 //go:generate env GOPACKAGE=probe go run github.com/cilium/ebpf/cmd/bpf2go probe ../../bpf/bootstrap.bpf.c -- -O2
 

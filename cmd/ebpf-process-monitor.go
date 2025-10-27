@@ -8,7 +8,7 @@ import (
 	"os/signal"
 	"syscall"
 
-	"ebpf-bootstrap/internal/probe"
+	"ebpf-process-monitor/internal/probe"
 )
 
 var (

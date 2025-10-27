@@ -19,13 +19,13 @@ This project demonstrates process monitoring using eBPF by tracing process execu
 ## Architecture
 
 ```
-ebpf-bootstrap/
+ebpf-process-monitor/
 ├── bpf/
 │   ├── bootstrap.bpf.c    # eBPF kernel-space program (C)
 │   ├── bootstrap.h         # Event structure definitions
 │   └── vmlinux.h          # Kernel type definitions
 ├── cmd/
-│   └── ebpf-bootstrap.go  # Main entry point
+│   └── ebpf-process-monitor.go  # Main entry point
 ├── internal/
 │   ├── event/
 │   │   └── event.go       # Event parsing and formatting
@@ -50,7 +50,7 @@ ebpf-bootstrap/
 ```bash
 # Clone the repository
 git clone <your-repo-url>
-cd ebpf-bootstrap
+cd ebpf-process-monitor
 
 # Install dependencies
 go mod download
@@ -63,10 +63,10 @@ make build
 
 ```bash
 # Run with default settings
-sudo ./ebpf-bootstrap
+sudo ./ebpf-process-monitor
 
 # Set minimum process duration filter (in milliseconds)
-sudo ./ebpf-bootstrap -d 100
+sudo ./ebpf-process-monitor -d 100
 ```
 
 ### Command-line Options
