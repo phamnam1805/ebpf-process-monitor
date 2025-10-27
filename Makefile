@@ -2,7 +2,7 @@ generate:
 	go generate ./...
 
 build-ebpf-process-monitor:
-	go build -ldflags "-s -w" -o ebpf-process-monitor cmd/ebpf-process-monitor.go
+	go build -ldflags "-s -w" -o ebpf-process-monitor cmd/main.go
 
 build: generate build-ebpf-process-monitor
 
