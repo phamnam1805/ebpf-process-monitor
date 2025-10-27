@@ -1,4 +1,4 @@
-# eBPF Bootstrap
+# eBPF Process Monitor
 
 This repository is an adaptation of the [eunomia-bpf bootstrap example](https://github.com/eunomia-bpf/bpf-developer-tutorial/blob/main/src/11-bootstrap/README.md), using Go with [cilium/ebpf](https://github.com/cilium/ebpf) library for the userspace code instead of the original C implementation.
 
