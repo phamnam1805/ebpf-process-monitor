@@ -49,7 +49,7 @@ ebpf-process-monitor/
 
 ```bash
 # Clone the repository
-git clone <your-repo-url>
+git clone https://github.com/phamnam1805/ebpf-process-monitor.git
 cd ebpf-process-monitor
 
 # Install dependencies
