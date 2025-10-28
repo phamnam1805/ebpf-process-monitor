@@ -156,4 +156,4 @@ This generates:
 
 ## License
 
-Dual BSD/GPL
+MIT
